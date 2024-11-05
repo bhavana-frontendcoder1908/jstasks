@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="alert('alert from inline')">
+        click me
+    </button>
+    <script>
+        console.log("HELLO WORLD(I'm from internal)")
+   
+        let a="Hello1";
+        console.log(a)
+        const b="Hello2"
+        console.log(b)
+        // let allows the variable to be reassigned multiple times, while const creates a variable that cannot be reassigned after it has been assigned a value.
+        // Variables declared by let are only available inside the block where they're defined. Variables declared by var are available throughout the function in which they're declared
+        var c="Hello3"
+        console.log(c)
+        d="Hello4"
+        console.log(d)
+    
+        var a1=111;
+        var b1="Hello";
+        var c1=true;
+        var d1=false;
+        var e=undefined;
+        var f=null;
+        var g=[111,786];
+        var h=["Srirangam","Bhavana"];
+        var i=5;
+        var j=5;
+        var k={
+            name : "bhavana" ,
+            age : 22,
+            id : 575
+        }
+
+        console.log(a1,typeof a1);
+        console.log(b1,typeof b1);
+        console.log(c1,typeof c1);
+        console.log(d1,typeof d1);
+        console.log(e,typeof e);
+        console.log(f,typeof f);
+        console.log(g,typeof g);
+        console.log(h,typeof h);
+        console.log(i+j,typeof i,j);
+        console.log(k,typeof k);
+     
+    </script>
+    <script src="demo.js"> </script>
+
+</body>
+</html>
